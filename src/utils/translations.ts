@@ -24,6 +24,18 @@ export interface Translations {
   selectNumbers: string;
   chooseNumbers: string;
   selectAtLeastTwo: string;
+  playerName: string;
+  enterPlayerName: string;
+  enterPlayerNameForBattle: string;
+  betOnNumber: string;
+  selectYourBet: string;
+  addPlayer: string;
+  removePlayer: string;
+  rollHistory: string;
+  noRollsYet: string;
+  winsWith: string;
+  betOn: string;
+  players: string;
 }
 
 export const translations: Record<UILanguage, Translations> = {
@@ -51,6 +63,18 @@ export const translations: Record<UILanguage, Translations> = {
     selectNumbers: 'Seleccionar Números',
     chooseNumbers: 'Elige los números que pueden aparecer:',
     selectAtLeastTwo: 'Selecciona al menos dos números',
+    playerName: 'Nombre del Jugador',
+    enterPlayerName: 'Ingresa tu nombre (opcional)',
+    enterPlayerNameForBattle: 'Ingresa tu nombre para la batalla (opcional)',
+    betOnNumber: 'Apostar por Número',
+    selectYourBet: 'Selecciona tu apuesta:',
+    addPlayer: 'Agregar Jugador',
+    removePlayer: 'Eliminar',
+    rollHistory: 'Historial de Tiradas',
+    noRollsYet: 'Aún no hay tiradas',
+    winsWith: 'gana con',
+    betOn: 'apostó por',
+    players: 'Jugadores',
   },
   en: {
     title: '🎲 Dice Game',
@@ -76,6 +100,18 @@ export const translations: Record<UILanguage, Translations> = {
     selectNumbers: 'Select Numbers',
     chooseNumbers: 'Choose which numbers can appear:',
     selectAtLeastTwo: 'Select at least two numbers',
+    playerName: 'Player Name',
+    enterPlayerName: 'Enter your name (optional)',
+    enterPlayerNameForBattle: 'Enter your name for battle (optional)',
+    betOnNumber: 'Bet on Number',
+    selectYourBet: 'Select your bet:',
+    addPlayer: 'Add Player',
+    removePlayer: 'Remove',
+    rollHistory: 'Roll History',
+    noRollsYet: 'No rolls yet',
+    winsWith: 'wins with',
+    betOn: 'bet on',
+    players: 'Players',
   },
 };
 
